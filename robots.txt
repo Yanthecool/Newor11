@@ -1,0 +1,63 @@
+# =========================================
+# ROBOTS.TXT FOR SHORTEN.BIZ.ID
+# Optimized For SEO & Fast Indexing
+# =========================================
+
+User-agent: *
+Allow: /
+
+# Important Pages
+Allow: /$
+Allow: /sitemap.xml
+
+# Block unnecessary parameters
+Disallow: /*?*
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+
+# Prevent duplicate content
+Disallow: /*utm_
+Disallow: /*ref=
+Disallow: /*source=
+Disallow: /*fbclid=
+Disallow: /*gclid=
+
+# Crawl delay for bad bots only
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Ads & Media
+User-agent: Mediapartners-Google
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.shorten.biz.id/sitemap.xml
+
+# Host
+Host: https://www.shorten.biz.id
